@@ -58,7 +58,6 @@ class TestPanel(bpy.types.Panel):
         row.operator("mesh.primitive_cube_add", text='AddCube', icon='CUBE')
         row = layout.row()
         row.operator(operator="object.text_add", text="Add Text", icon='TEXT')
-        row = layout.row()
 
 # 添加一个PanelA面板,附属在TestPanel
 class PanelA(bpy.types.Panel):
