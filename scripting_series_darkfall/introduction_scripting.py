@@ -59,6 +59,7 @@ class TestPanel(bpy.types.Panel):
         row = layout.row()
         row.operator(operator="object.text_add", text="Add Text", icon='TEXT')
 
+
 # 添加一个PanelA面板,附属在TestPanel
 class PanelA(bpy.types.Panel):
     bl_label = "Scale"
