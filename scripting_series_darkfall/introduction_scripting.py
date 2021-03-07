@@ -100,8 +100,9 @@ class PanelA(bpy.types.Panel):
         # https://docs.python.org/zh-cn/3.7/faq/programming.html?highlight=self#what-is-self
         # DNA&RNA
         # https://www.blendernation.com/2008/12/01/blender-dna-rna-and-backward-compatibility/
-        # DNA ：a long string with encoded types for the entire internal structure of Blender's data, saved in every .blend, and in every Blender binary.
-        #       一个长字符串，包含所有Blender内部数据结构的编码类型，保存在每个.blend文件，每个Blender二进制文件
+        # DNA ：a long string with encoded types for the entire internal structure of Blender's data, saved in every
+        # .blend, and in every Blender binary.
+        # 一个长字符串，包含所有Blender内部数据结构的编码类型，保存在每个.blend文件，每个Blender二进制文件
         # RNA：自动生成一个Python数据访问API（Py data-access API），并允许特性（Feature）“全部可以动画（everything animatable）”，
         # 数据的自动按钮列表视图（auto-button-list-view of data），甚至处理依赖关系（dependencies）
 
