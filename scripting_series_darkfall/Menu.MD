@@ -1,4 +1,4 @@
-#  :sunny: [Blender 2.8 Tutorial, learn python scripting (for beginners)](https://www.youtube.com/watch?v=4KwPhQX63SQ&list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb)
+#[Blender 2.8 Tutorial, learn python scripting (for beginners)](https://www.youtube.com/watch?v=4KwPhQX63SQ&list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb)
 
 ---
 
@@ -26,4 +26,8 @@
 
 #### 7.Creating the Text Tool Add-on [learn python for beginners]  
 对应脚本：text_tool.py  
+   &nbsp;  
+
+#### 8.Create Custom Node Group [learn python for beginners]  
+对应脚本：custom_node_group.py  
    &nbsp;  
