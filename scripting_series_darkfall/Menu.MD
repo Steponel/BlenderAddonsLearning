@@ -28,6 +28,6 @@
 对应脚本：text_tool.py  
    &nbsp;  
 
-#### 8.Create Custom Node Group [learn python for beginners]  
+#### 8.Create Custom Node Group [learn python for beginners] 
 对应脚本：custom_node_group.py  
    &nbsp;  
