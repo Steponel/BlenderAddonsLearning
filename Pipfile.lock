@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6563f39f1072d8cb41de64f9914c4bb3bf893da2c787c553fd715a5e89f8936d"
+            "sha256": "8fe51313acba82a10278adb27d7653f71bd76c85dea69ecbfb1660c7aec2d380"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,13 +16,13 @@
         ]
     },
     "default": {
-        "fake-bpy-module-2.91": {
+        "fake-bpy-module-2-92": {
             "hashes": [
-                "sha256:2974bd203d68ef664cf5b7a7e8110e3ff27addee7aa6f822f4a3d2f28ce1c295",
-                "sha256:3168d700a68ec238df3bed4c2c26358dc3ddc528e25de8e90cdb1c0977eeabdc"
+                "sha256:45a19d1d43419cb7449b1b186f5c33dd27077d2dccd5dbfb7ec7e42cce961b33",
+                "sha256:f537535ffc0a8c85dade036d6fb159ba13725150f7413d5873e3b2aa1362fb08"
             ],
             "index": "pypi",
-            "version": "==20201216"
+            "version": "==20210304"
         }
     },
     "develop": {}
