@@ -17,7 +17,7 @@ checked before running the operator, which will never run when poll fails, used 
   
 - `draw`  
   called to draw options, typically in the tool-bar. Without this, options will draw in the order they are defined. This gives you control over the layout.  
-  用于绘制选项，通常在工具栏中。如果不这样做，选项将按照定义的顺序绘制。这样你就可以控制布局。  
+  用于绘制选项，通常在工具栏中。如果不这样做，选项将按照定义的顺序绘制。这样你就可以使用它控制布局。  
     
 - `modal `   
   this is used for operators which continuously run, eg: fly mode, knife tool, circle select are all examples of modal operators. Modal operators can handle events which would normally access other operators, they keep running until they return `FINISHED`.  
