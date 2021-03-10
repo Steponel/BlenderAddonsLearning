@@ -1,3 +1,4 @@
+# *** 6.Create a popup dialog box ***
 import bpy
 
 
@@ -9,7 +10,7 @@ class WM_OT_MyOp(bpy.types.Operator):
 
     # Add Properties
     text = bpy.props.StringProperty(name="Enter the Name", default="")
-    scale = bpy.props.FloatVectorProperty(name="scale", default=[1,1,1])
+    scale = bpy.props.FloatVectorProperty(name="scale", default=[1, 1, 1])
 
     # execute
     # This runs the operator, assuming values are set by the caller (else use defaults), this is used for undo/redo,
