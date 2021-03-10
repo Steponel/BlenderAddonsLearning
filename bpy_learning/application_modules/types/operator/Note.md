@@ -32,4 +32,4 @@ checked before running the operator, which will never run when poll fails, used 
 
 
 
-  ![xx](./pics/QQ图片20201218235955.jpg)
+  ![xx](pics/QQ图片20201218235955.jpg)
