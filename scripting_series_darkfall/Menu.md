@@ -35,3 +35,7 @@
 #### 9.Custom Drawing / Layout Improvements 
 对应脚本：text_tool.py  
    &nbsp;  
+
+#### 10.Shortcut / Custom Keymap 
+对应脚本：popup_dialog_test_text.py  
+   &nbsp;  
