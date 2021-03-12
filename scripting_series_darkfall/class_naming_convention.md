@@ -1,7 +1,7 @@
 
-https://blender.stackexchange.com/questions/80804/what-are-the-class-naming-conventions-for-blender
-https://b3d.interplanety.org/en/class-naming-conventions-in-blender-2-8-python-api/
-https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Python_API/Addons
+https://blender.stackexchange.com/questions/80804/what-are-the-class-naming-conventions-for-blender  
+https://b3d.interplanety.org/en/class-naming-conventions-in-blender-2-8-python-api/  
+https://wiki.blender.org/wiki/Reference/Release_Notes/2.80/Python_API/Addons  
 
 # Class Registration
 See T52599 for proposal and details.
