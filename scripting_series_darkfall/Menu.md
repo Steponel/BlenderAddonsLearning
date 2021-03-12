@@ -67,3 +67,9 @@
 
 对应脚本：popup_template.py
    &nbsp;  
+
+#### 14.Class Naming Convention 
+- 类命名规范  
+
+对应脚本：class_naming_convention.md
+   &nbsp;  
