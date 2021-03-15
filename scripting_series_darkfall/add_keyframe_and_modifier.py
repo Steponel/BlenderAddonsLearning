@@ -8,6 +8,7 @@ class HelloWorldPanel(bpy.types.Panel):
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = 'Name your New Tab'
+    bl
 
     def draw(self, context):
         layout = self.layout
