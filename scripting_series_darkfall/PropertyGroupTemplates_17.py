@@ -3,19 +3,8 @@ import bpy
 
 # 定义PropertyGroup
 class MyProperties(bpy.types.PropertyGroup):
-    my_string: bpy.props.StringProperty(name="Enter Text")
-    my_float_vector: bpy.props.FloatVectorProperty(
-        name="Enter Value", soft_min=0, soft_max=1000)
-    my_enum: bpy.props.EnumProperty(
-        name="Enumerator/Dropdown",
-        description="sample text",
-        items=[
-            ('OP1', "Add Cube", ""),
-            ('OP2', "Add Sphere", ""),
-            ('OP3', "Add Monkey", "")
-
-        ]
-    )
+    my_string: bpy.props.StringProperty(
+        name="Enter Password", subtype="PASSWORD")
 
 
 class ADDONNAME_PT_main_panel(bpy.types.Panel):
@@ -46,20 +35,8 @@ class ADDONNAME_OT_my_op(bpy.types.Operator):
     def execute(self, context):
         my_tool = context.scene.my_tool
 
-        if my_tool.my_enum == 'OP1':
+        if my_tool.my_string == 'xxx':
             bpy.ops.mesh.primitive_cube_add()
-            bpy.context.object.name = my_tool.my_string
-            bpy.context.object.scale = my_tool.my_float_vector
-
-        if my_tool.my_enum == 'OP2':
-            bpy.ops.mesh.primitive_uv_sphere_add()
-            bpy.context.object.name = my_tool.my_string
-            bpy.context.object.scale = my_tool.my_float_vector
-
-        if my_tool.my_enum == 'OP3':
-            bpy.ops.mesh.primitive_monkey_add()
-            bpy.context.object.name = my_tool.my_string
-            bpy.context.object.scale = my_tool.my_float_vector
 
         return {"FINISHED"}
 
