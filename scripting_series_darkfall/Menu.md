@@ -19,3 +19,6 @@
 | 17.Property Subtypes and Password Protection             | subtypes,Password  | PropertyGroupTemplates_17.py |
 | 18.Importing Modules                                     | importing modules  |                              |
 | 22.Add-on Creation - Insta-Mist                          | Compositing,Camera  | insta_mist.py               |
+| 23.Lists - Create, Append and Remove                     | Append and Remove  | append_and_remove.py         |
+| 24.How to Display Info Messages                     | report  | display_info_messages.py      |
+| 26.How to make a Random Word Generator                     | Random Word Generator  |  append_and_remove.py     |
