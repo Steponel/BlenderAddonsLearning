@@ -15,5 +15,7 @@
 | 13.Enumerator / Drop down Menu                           | 枚举               | popup_template.py            |
 | 14.Class Naming Convention                               | 类命名规范         | class_naming_convention.md   |
 | 15.How to create and assign a Material Shader            | Material About     | the_shader_library_15.py     |
-| 16.Create Property Group & Enumerator (Panel)            | PropertyGroup     |  PropertyGroupTemplates.py     |
-|                                                          |                    |                              |
+| 16.Create Property Group & Enumerator (Panel)            | PropertyGroup      | PropertyGroupTemplates.py    |
+| 17.Property Subtypes and Password Protection             | subtypes,Password  | PropertyGroupTemplates_17.py |
+| 18.Importing Modules                                     | importing modules  |                              |
+| 22.Add-on Creation - Insta-Mist                          | Compositing,Camera  | insta_mist.py               |
