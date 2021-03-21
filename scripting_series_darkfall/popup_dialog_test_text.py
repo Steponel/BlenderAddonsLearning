@@ -8,7 +8,8 @@ class WM_OT_dialogop(bpy.types.Operator):
     bl_idname = "wm.dialogop"
 
     name = bpy.props.StringProperty(name="Name", default="")
-    scale = bpy.props.FloatVectorProperty(name="Scale: X,Y,Z", default=(1, 1, 1))
+    scale = bpy.props.FloatVectorProperty(
+        name="Scale: X,Y,Z", default=(1, 1, 1))
     bool = bpy.props.BoolProperty(name="Array?", default=False)
     array = bpy.props.IntProperty(name="Array Count", default=1)
     bool2 = bpy.props.BoolProperty(name="Rotate?", default=False)
@@ -71,7 +72,8 @@ def register():
         # 创建新的keymap，属于VIEW_3D
         km = kc.keymaps.new(name='3D View', space_type='VIEW_3D')
         # 添加操作符的对应键在 keymap item 中
-        kmi = km.keymap_items.new("wm.dialogop", type='F', value='PRESS', shift=True)
+        kmi = km.keymap_items.new(
+            "wm.dialogop", type='F', value='PRESS', shift=True)
         # 添加到list用于删除
         addon_keymaps.append((km, kmi))
 
