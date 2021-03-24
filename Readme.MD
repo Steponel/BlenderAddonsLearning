@@ -5,7 +5,7 @@
 
 ## <font color=#0099ff>bpy_learning</font>  
 **一些对bpy的笔记**  
-&nbsp;  
+
 目录结构基于BlenderAPI
 
 ---
@@ -17,7 +17,19 @@
 
 ---
 
-&nbsp;  
 
-#### 我的B站地址: &emsp; [**Steponell**](https://space.bilibili.com/21077855)
+## <font color=#0099ff>scripting_for_artists  </font>  
+**These are the free chapters of Scripting for Artists, in which Sybren teaches how to automate things in Blender.**
 
+视频地址：https://www.youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW
+
+---
+
+
+## About Me：
+
+我的B站地址: &emsp; [**Steponell**](https://space.bilibili.com/21077855)
+
+我的Github：https://github.com/Steponel
+
+我的Gitee：https://gitee.com/Steponel
