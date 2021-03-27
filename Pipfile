@@ -7,7 +7,6 @@ name = "pypi"
 fake-bpy-module-2-92 = "*"
 
 [dev-packages]
-yapf = "*"
 
 [requires]
 python_version = "3.7"
