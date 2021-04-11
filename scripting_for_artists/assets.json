@@ -1,0 +1,16 @@
+{
+    "collections": {
+        "Monkey": {
+            "link": [
+                {
+                    "file": "D:/BlenderAddonsLearning/scripting_for_artists/Monkey.blend",
+                    "prefix": "M_"
+                },
+                {
+                    "file": " ",
+                    "prefix": " "
+                }
+            ]
+        }
+    }
+}
